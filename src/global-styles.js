@@ -20,8 +20,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #f9fafc;
-    font-family: 'Open Sans', sans-serif; 
+    background-color: #21303e;
+    font-family: 'Nunito', 'Avenir', sans-serif; 
     line-height: 1.5;
     padding: 50px 0;
     -webkit-font-smoothing: antialiased;
