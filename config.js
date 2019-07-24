@@ -1,17 +1,17 @@
 module.exports = {
   title: 'JustPark Engineering Blog', // Required
-  author: 'Qang', // Required
-  description: 'Full-stack Web Developer',
+  author: 'JustPark Engineering Blog', // Required
+  description: 'Where Great Underpinning Code Happens',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
     website: 'https://justpark.com',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    github: 'https://github.com/justpark/justpark-blog/',
+    twitter: 'https://twitter.com/JustPark',
+    linkedin: 'https://www.linkedin.com/company/justpark',
   },
-  pathPrefix: '/devblog',
+  pathPrefix: '/',
   siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
 };
