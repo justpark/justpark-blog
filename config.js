@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'JustPark Engineering Blog', // Required
-  author: 'JustPark Engineering Blog', // Required
+  title: 'JustPark Product & Engineering Blog', // Required
+  author: 'Product & Engineering Blog', // Required
   description: 'Where Great Underpinning Code Happens',
-  primaryColor: '#3498db', // Required
+  primaryColor: '#1fa637', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
