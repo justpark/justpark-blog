@@ -1,7 +1,7 @@
 import React from 'react';
 
 import FeaturedImage from '../FeaturedImage';
-import H1 from '../H1';
+import H2 from '../H2';
 import P from '../P';
 import Wrapper from './Wrapper';
 import Link from './Link';
@@ -16,7 +16,7 @@ function Summary({date, title, excerpt, slug, image}) {
             <FeaturedImage sizes={image.childImageSharp.sizes}/>
           </Link>
         }
-        <H1><Link to={slug}>{title}</Link></H1>
+        <H2><Link to={slug}>{title}</Link></H2>
         <Date>{date}</Date>
         <P>{excerpt}</P>
         <ContinueReading to={slug}>Continue Reading &rarr;</ContinueReading>

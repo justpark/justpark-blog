@@ -5,7 +5,7 @@ module.exports = {
   primaryColor: '#1fa637', // Required
   showHeaderImage: true,
   showShareButtons: true,
-  postsPerPage: 5, // Required
+  postsPerPage: 6, // Required
   social: {
     website: 'https://justpark.com',
     github: 'https://github.com/justpark/justpark-blog/',

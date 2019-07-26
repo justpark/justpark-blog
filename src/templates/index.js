@@ -5,10 +5,15 @@ import userConfig from '../../config';
 
 import Layout from './layout';
 
-import Card from '../components/Card';
-import Container from '../components/Container';
-import Pagination from '../components/Pagination';
+import ContainerPreview from '../components/ContainerPreview';
+import CardPreview from '../components/CardPreview';
 import Summary from '../components/Summary';
+import Pagination from '../components/Pagination';
+
+
+import Card from "../components/CardPreview2/Card.jsx";
+import CardBody from "../components/CardPreview2/CardBody.jsx";
+
 
 const IndexPage = ({ pageContext }) => {
   const { group, index, pageCount } = pageContext;
@@ -16,7 +21,7 @@ const IndexPage = ({ pageContext }) => {
   const nextUrl = (index + 1).toString();
   return (
     <Layout>
-      <Container>
+      <ContainerPreview>
         <Helmet
           title={`${userConfig.title} | ${userConfig.author}`}
           htmlAttributes={{ lang: 'en' }}
@@ -27,7 +32,7 @@ const IndexPage = ({ pageContext }) => {
           />
         </Helmet>
         {group.map(({ node }) => (
-          <Card key={node.fields.slug}>
+          <CardPreview key={node.fields.slug}>
             <Summary
               date={node.frontmatter.date}
               title={node.frontmatter.title}
@@ -35,7 +40,7 @@ const IndexPage = ({ pageContext }) => {
               image={node.frontmatter.featuredImage}
               slug={node.fields.slug}
             />
-          </Card>
+          </CardPreview>
         ))}
         <Pagination
           isFirst={index === 1}
@@ -43,7 +48,7 @@ const IndexPage = ({ pageContext }) => {
           nextUrl={nextUrl}
           previousUrl={previousUrl}
         />
-      </Container>
+      </ContainerPreview>
     </Layout>
   );
 };
