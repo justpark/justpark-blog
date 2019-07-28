@@ -42,7 +42,7 @@ exports.createPages = ({ graphql, actions }) => {
                     date(formatString: "MMMM D, YYYY")
                     featuredImage {
                       childImageSharp {
-                        sizes(maxWidth: 850, maxHeight: 400) {
+                        sizes(maxWidth: 850, maxHeight: 300) {
                           base64
                           aspectRatio
                           src
@@ -76,7 +76,7 @@ exports.createPages = ({ graphql, actions }) => {
             createPage: createPage,
             pageTemplate: 'src/templates/index.js',
             pageLength: userConfig.postsPerPage,
-            pathPrefix: userConfig.pathPrefix ? userConfig.pathPrefix : '/'
+            pathPrefix: userConfig.pathPrefix ? userConfig.pathPrefix : ''
           });
 
           createPage({

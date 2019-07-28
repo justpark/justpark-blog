@@ -20,6 +20,7 @@ const cardStyle = {
     border: "0",
     marginBottom: "30px",
     marginTop: "30px",
+    marginLeft: "2%",
     borderRadius: "6px",
     color: "rgba(0, 0, 0, 0.87)",
     background: "#fff",

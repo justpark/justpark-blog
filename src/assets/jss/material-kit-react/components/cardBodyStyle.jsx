@@ -17,7 +17,7 @@
 */
 const cardBodyStyle = {
   cardBody: {
-    padding: "0.9375rem 1.875rem",
+    padding: "4%",
     flex: "1 1 auto"
   }
 };

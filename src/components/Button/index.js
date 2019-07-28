@@ -8,7 +8,8 @@ const Button = styled(Link)`
   display: inline-block;
   font-size: 10px;
   font-weight: 700;
-  margin: 0 10px;
+  margin: 0px 10px;
+  position: relative;
   padding: 5px 15px;
   text-decoration: none;
   text-transform: uppercase;
