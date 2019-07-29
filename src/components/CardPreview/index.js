@@ -9,13 +9,6 @@ const CardPreview = styled.div`
   margin-right: 1%;
   margin-left:1%;
   margin-bottom: 2%;
- 
-
-  @media only screen and (max-width: 870px) {
-    border-left: none;
-    border-right: none;
-    padding: 75px 15px;
-  }
 `;
 
 export default CardPreview;

@@ -33,7 +33,12 @@ const cardStyle = {
     minWidth: "0",
     wordWrap: "break-word",
     fontSize: ".875rem",
-    transition: "all 300ms linear"
+    transition: "all 300ms linear",
+    flexBasis: "350px",
+    
+    "&:hover": {
+    transform: "scale(1.09)"
+    }
   },
   cardPlain: {
     background: "transparent",

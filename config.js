@@ -5,13 +5,13 @@ module.exports = {
   primaryColor: '#1fa637', // Required
   showHeaderImage: true,
   showShareButtons: true,
-  postsPerPage: 8, // Required
+  postsPerPage: 6, // Required
   social: {
     website: 'https://justpark.com',
     github: 'https://github.com/justpark/justpark-blog/',
     twitter: 'https://twitter.com/JustPark',
     linkedin: 'https://www.linkedin.com/company/justpark',
   },
-  pathPrefix: '/',
+  pathPrefix: '',
   siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
 };

@@ -6,6 +6,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: stretch;
+max-width: 80%;
 `;
 
 export default ContainerPreview;
