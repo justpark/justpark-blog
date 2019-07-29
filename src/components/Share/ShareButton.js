@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const ShareButton = styled.a`
-  border: 1px solid #bfc8d2;
+  border: 2px solid #21303e;
+  background-color: #fff;
   border-radius: 15px;
   display: inline-block;
   margin: 5px;
@@ -11,13 +12,13 @@ const ShareButton = styled.a`
   svg {
     display: inline-block;
     height: 20px;
-    stroke: #6e849c;
+    stroke: #1fa637;
     vertical-align: middle;
     width: 20px;
   }
 
   &:hover {
-    border-color: #3e465b;
+    border-color: #1fa637;
   }
 `;
 
