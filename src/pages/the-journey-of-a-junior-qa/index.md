@@ -4,7 +4,7 @@ date: "2018-09-01"
 featuredImage: './traintrack.jpg'
 ---
 
-In this blog, Win and Aloysius discuss their personal journey in becoming Junior Quality Assurance Engineers, touching on the highlights, challenges and perspectives they've experienced coming from a non-QA background.
+Win and Aloysius discuss their personal journey in becoming Junior Quality Assurance Engineers, touching on the highlights, challenges and perspectives they've experienced coming from a non-QA background.
 
 <!-- end -->
 
